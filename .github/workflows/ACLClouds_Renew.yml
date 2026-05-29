@@ -1,8 +1,6 @@
 name: ACLClouds 自动续期
 
 on:
-  schedule:
-    - cron: '0 2 * * *'
   workflow_dispatch:
     inputs:
       enable_video:
